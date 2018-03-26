@@ -5,17 +5,17 @@
   
   <title>每周练习（1） | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="[编程题] 最高分是多少时间限制: 1秒空间限制: 65536K  输入描述:123456输入包括多组测试数据。每组输入第一行是两个正整数N和M（0 &amp;lt; N &amp;lt;= 30000,0 &amp;lt; M &amp;lt; 5000）,分别代表学生的数目和操作的数目。学生ID编号从1编到N。第二行包含N个整数，代表这N个学生的初始成绩，其中第i个数代表ID为i的学生的成绩接下来又M行，每一行有一个字符C（">
+  <meta name="description" content="[编程题] 最高分是多少时间限制: 1秒空间限制: 65536K  老师想知道从某某同学当中，分数最高的是多少，现在请你编程模拟老师的询问。当然，老师有时候需要更新某位同学的成绩 输入描述:123456输入包括多组测试数据。每组输入第一行是两个正整数N和M（0 &amp;lt; N &amp;lt;= 30000,0 &amp;lt; M &amp;lt; 5000）,分别代表学生的数目和操作的数目。学生ID编号从1编到N。第二">
 <meta name="keywords" content="华为2016校园招聘上机笔试题（1）牛客网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="每周练习（1）">
 <meta property="og:url" content="http://yoursite.com/2018/03/25/每周练习（1）/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="[编程题] 最高分是多少时间限制: 1秒空间限制: 65536K  输入描述:123456输入包括多组测试数据。每组输入第一行是两个正整数N和M（0 &amp;lt; N &amp;lt;= 30000,0 &amp;lt; M &amp;lt; 5000）,分别代表学生的数目和操作的数目。学生ID编号从1编到N。第二行包含N个整数，代表这N个学生的初始成绩，其中第i个数代表ID为i的学生的成绩接下来又M行，每一行有一个字符C（">
-<meta property="og:updated_time" content="2018-03-25T08:38:08.512Z">
+<meta property="og:description" content="[编程题] 最高分是多少时间限制: 1秒空间限制: 65536K  老师想知道从某某同学当中，分数最高的是多少，现在请你编程模拟老师的询问。当然，老师有时候需要更新某位同学的成绩 输入描述:123456输入包括多组测试数据。每组输入第一行是两个正整数N和M（0 &amp;lt; N &amp;lt;= 30000,0 &amp;lt; M &amp;lt; 5000）,分别代表学生的数目和操作的数目。学生ID编号从1编到N。第二">
+<meta property="og:updated_time" content="2018-03-26T06:16:27.826Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="每周练习（1）">
-<meta name="twitter:description" content="[编程题] 最高分是多少时间限制: 1秒空间限制: 65536K  输入描述:123456输入包括多组测试数据。每组输入第一行是两个正整数N和M（0 &amp;lt; N &amp;lt;= 30000,0 &amp;lt; M &amp;lt; 5000）,分别代表学生的数目和操作的数目。学生ID编号从1编到N。第二行包含N个整数，代表这N个学生的初始成绩，其中第i个数代表ID为i的学生的成绩接下来又M行，每一行有一个字符C（">
+<meta name="twitter:description" content="[编程题] 最高分是多少时间限制: 1秒空间限制: 65536K  老师想知道从某某同学当中，分数最高的是多少，现在请你编程模拟老师的询问。当然，老师有时候需要更新某位同学的成绩 输入描述:123456输入包括多组测试数据。每组输入第一行是两个正整数N和M（0 &amp;lt; N &amp;lt;= 30000,0 &amp;lt; M &amp;lt; 5000）,分别代表学生的数目和操作的数目。学生ID编号从1编到N。第二">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -53,9 +53,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -87,6 +87,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>[编程题] 最高分是多少<br>时间限制: 1秒<br>空间限制: 65536K </p>
+<p>老师想知道从某某同学当中，分数最高的是多少，现在请你编程模拟老师的询问。当然，老师有时候需要更新某位同学的成绩</p>
 <h5 id="u8F93_u5165_u63CF_u8FF0_3A"><a href="#u8F93_u5165_u63CF_u8FF0_3A" class="headerlink" title="输入描述:"></a><strong>输入描述:</strong></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">输入包括多组测试数据。</div><div class="line">每组输入第一行是两个正整数N和M（0 &lt; N &lt;= 30000,0 &lt; M &lt; 5000）,分别代表学生的数目和操作的数目。</div><div class="line">学生ID编号从1编到N。</div><div class="line">第二行包含N个整数，代表这N个学生的初始成绩，其中第i个数代表ID为i的学生的成绩</div><div class="line">接下来又M行，每一行有一个字符C（只取‘Q’或‘U’），和两个正整数A,B,当C为&apos;Q&apos;的时候, 表示这是一条询问操作，他询问ID从A到B（包括A,B）的学生当中，成绩最高的是多少</div><div class="line">当C为‘U’的时候，表示这是一条更新操作，要求把ID为A的学生的成绩更改为B。</div></pre></td></tr></table></figure>
 <h5 id="u8F93_u51FA_u63CF_u8FF0_3A"><a href="#u8F93_u51FA_u63CF_u8FF0_3A" class="headerlink" title="输出描述:"></a><strong>输出描述:</strong></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">对于每一次询问操作，在一行里面输出最高成绩.</div></pre></td></tr></table></figure>
 <h5 id="u8F93_u5165_u4F8B_u5B501_3A"><a href="#u8F93_u5165_u4F8B_u5B501_3A" class="headerlink" title="输入例子1:"></a><strong>输入例子1:</strong></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">5 7</div><div class="line">1 2 3 4 5</div><div class="line">Q 1 5</div><div class="line">U 3 6</div><div class="line">Q 3 4</div><div class="line">Q 4 5</div><div class="line">U 4 5</div><div class="line">U 2 9</div><div class="line">Q 1 5</div></pre></td></tr></table></figure>
@@ -110,7 +111,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/25/每周练习（1）/" data-id="cjf6kiv480002s8us8rdylx2l" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/03/25/每周练习（1）/" data-id="cjf7ub89v0002mkusp0fsy3kk" class="article-share-link">Partager</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/华为2016校园招聘上机笔试题（1）牛客网/">华为2016校园招聘上机笔试题（1）牛客网</a></li></ul>
@@ -123,7 +124,7 @@
   
   
     <a href="/2017/09/30/庆祝博客搭建成功/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">Ancien</strong>
       <div class="article-nav-title">庆祝博客搭建成功</div>
     </a>
   
@@ -141,7 +142,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">Mot-clés</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/华为2016校园招聘上机笔试题（1）牛客网/">华为2016校园招聘上机笔试题（1）牛客网</a></li></ul>
     </div>
@@ -151,7 +152,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">Nuage de mot-clés</h3>
     <div class="widget tagcloud">
       <a href="/tags/华为2016校园招聘上机笔试题（1）牛客网/" style="font-size: 10px;">华为2016校园招聘上机笔试题（1）牛客网</a>
     </div>
@@ -170,7 +171,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
@@ -199,7 +200,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
